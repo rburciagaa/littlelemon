@@ -1,0 +1,16 @@
+span{
+    color:red;
+    display: block;
+}
+label{
+    font-family: 'Karla', sans-serif;
+}
+
+button{
+    background-color: #f4ce14;
+    color:black;
+    padding:.8rem 1.6rem;
+    border-radius:16px;
+    margin-top: 1rem;
+    font-weight: bold;
+}

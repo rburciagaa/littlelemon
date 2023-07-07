@@ -1,0 +1,12 @@
+nav{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    justify-content: space-evenly;
+}
+
+li{
+    display: inline;
+}

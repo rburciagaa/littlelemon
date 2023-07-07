@@ -1,0 +1,67 @@
+.historySection{
+    background-color: #495e57;
+    height: 400px;
+    font-size: 60px;
+    display: grid;
+    grid-template-columns: 2;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 300px;
+    padding: 2rem;
+}
+
+
+
+.divTitle{
+    width: 40%;
+    padding: 3rem 0 2rem 0;
+}
+
+.history-image1{
+    border-radius: 16px;
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    object-fit: cover;
+    top:3rem;
+    left:60%;
+}
+
+.history-image2{
+    border-radius: 16px;
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    object-fit: cover;
+    top:200px;
+    left:50%;
+}
+
+@media(max-width:900px){
+    .history-image1{
+        width: 175px;
+        height: 225px;
+    }
+    
+    .history-image2{
+        width: 175px;
+        height: 225px;
+    }
+
+    .historySection{
+        height: 400px;
+        font-size: 60px;
+        display: grid;
+        grid-template-columns: 2;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 100px;
+        padding: 2rem;
+    }
+    
+}
+
+@media (max-width:530px){
+    .historySection{
+        height: auto;}
+}

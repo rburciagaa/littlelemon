@@ -1,0 +1,66 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+    min-width: 300px;
+    height: 600px;
+    border-radius: 16px 16px 0 0;
+    background-color: #333333;
+    margin-top:2rem;
+}
+
+.image-container{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+}
+
+.title{
+    grid-area: title;
+}
+
+.price{
+    grid-area:price;
+    color:#f4ce14;
+    text-align: right;
+}
+
+.description{
+    grid-area:description;
+    text-align: justify;
+}
+
+.order{
+    grid-area: order;
+    font-weight: bold;
+    align-content: center;
+}
+
+.bike{
+    grid-area:bike;
+}
+
+.grid{
+    padding:1rem;
+    margin:auto;
+    display: grid;
+    gap:10px;
+    
+    grid-template-areas:
+        'title price'
+        'description description'
+        'order bike';
+}
+
+.card .title{
+    font-size: 2rem;
+    color: #edefee;
+}

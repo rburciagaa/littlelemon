@@ -1,0 +1,37 @@
+.specials{
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.specials-header{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+.specials .title{
+    color: black;
+    font-size: 4rem;
+    font-family: 'Markazi Text', serif;
+}
+
+.card-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width:900px){
+    .specials{
+        margin-top: 2rem;
+    }
+    .specials-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .specials .title{
+        text-align: center;
+    }
+}
